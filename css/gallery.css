@@ -1,0 +1,20 @@
+.galleryimg {
+  box-sizing: border-box;
+}
+
+.galleryimg a img {
+  float: left;
+  width: 25%;
+  height: auto;
+  border: 2px solid #fff;
+  -webkit-transition: -webkit-transform 0.15s ease;
+  -moz-transition: -moz-transform 0.15s ease;
+  -o-transition: -o-transform 0.15s ease;
+  -ms-transition: -ms-transform 0.15s ease;
+  transition: transform 0.15s ease;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
